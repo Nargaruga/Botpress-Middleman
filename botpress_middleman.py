@@ -15,7 +15,7 @@ logging.basicConfig(filename = "logging.log",
                     level = logging.INFO)
 logger = logging.getLogger("botpress_middleman")
 
-#Configura the Updater, which allows us to receive messages from Telegram
+#Configure the Updater, which allows us to receive messages from Telegram
 try:
     with open("token.txt") as f:
         token = f.read().strip()
